@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1085447294517",
+    "firebase_url": "https://moviapps-51695.firebaseio.com",
+    "project_id": "moviapps-51695",
+    "storage_bucket": "moviapps-51695.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085447294517:android:e67cd932168da2f61d2b7c",
+        "android_client_info": {
+          "package_name": "com.example.movie_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085447294517-jd3mf866n7lktude2ndavfe8dn7oiark.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu5PW5ja-kngbyNvJ7R4SQcB3O5yv8It4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085447294517-jd3mf866n7lktude2ndavfe8dn7oiark.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
