@@ -1,6 +1,6 @@
 part of 'services.dart';
 
-class AuthService {
+class AuthServices {
   static FirebaseAuth _auth = FirebaseAuth.instance;
 
   static Future<SignInSignUpResult> signUp(String email, String password,
@@ -36,6 +36,8 @@ class AuthService {
   static Future<void>signOut() async{
     await _auth.signOut();
   }
+
+  static Stream<FirebaseUser> get userStream => _auth.onAuthStateChanged;
 }
 
 class SignInSignUpResult {
