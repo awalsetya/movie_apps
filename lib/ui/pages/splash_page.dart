@@ -8,8 +8,11 @@ class SplashPage extends StatelessWidget {
         title: Text("Splash Page"),
       ),
       body: Center(
-        child:
-            RaisedButton(child: Text("Go To Sign In Page"), onPressed: () {}),
+        child: RaisedButton(
+            child: Text("Go To Sign In Page"),
+            onPressed: () {
+              context.bloc<PageBloc>().add(GotoLoginPage());
+            }),
       ),
     );
   }
